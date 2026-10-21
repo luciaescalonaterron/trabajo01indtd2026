@@ -2,9 +2,9 @@
 title: "Soluciones Trabajo Individual"
 author: "Lucia Escalona Terron"
 date: "2026-10-13"
-output:
-  pdf_document: default
-  html_document: default
+format:
+  html: default
+  typst: default
 ---
 
 ```{r setup, include=FALSE}
