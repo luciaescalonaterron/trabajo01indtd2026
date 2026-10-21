@@ -15,7 +15,10 @@ source("teoriadecision_funciones_incertidumbre.R")
 
 ## Problema 1: Matriz Abstracta de Decisión
 ```{r}
-v1 <- c(45, 30, 15, -10, 35, 32, 28, 10, 60, 25, 5, -25, 50, 40, 0, -15)
+v1 <- c(45, 30, 15, -10, 
+        35, 32, 28, 10, 
+        60, 25, 5, -25, 
+        50, 40, 0, -15)
 
 tb1 <- crea.tablaX(
   vector_matporfilas = v1,
@@ -55,7 +58,9 @@ criterio.Laplace(tb1, favorable = TRUE)
 ## Problema 2: Reestructuración de Liquidez Bancaria (Caso Real)
 
 ```{r}
-v2 <- c(18, 24, 30, 28, 22, 12, 10, 16, 20)
+v2 <- c(18, 24, 30, 
+        28, 22, 12, 
+        10, 16, 20)
 
 tb2 <- crea.tablaX(
   vector_matporfilas = v2,
